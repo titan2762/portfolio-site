@@ -1,0 +1,25 @@
+.mytable {
+    background-color: aqua;
+}
+
+.mytable tbody td {
+    width: 10em;
+}
+
+.mytable tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+.mytable tbody td:nth-child(3) {
+    background-color: lightblue;
+}
+
+.mytable thead {
+    background-color: blue;
+    color: white;
+}
+
+.mytable tfoot {
+    background-color: brown;
+    color: white;
+}

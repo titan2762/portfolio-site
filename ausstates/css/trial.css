@@ -1,0 +1,37 @@
+/* aussie states trial css*/
+
+/* applies background and text colours to three main areas of web page */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}    
+
+header {
+    background-color: white;
+    color: blue;
+}
+
+main {
+    background-color:#4b4b4b;
+    color: #eff5f8;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.45em;
+    text-align: center;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ryan Kelley</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">portfolio</a>
+            </li>
+            <li>
+                <a href="#">about</a>
+            </li>
+            <li>
+                <a href="#">blog</a>
+            </li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <div id="hero">
+        <h1>Ryan Kelley</h1>
+        <img src="ryan_kelley.jpg" alt="Ryan Kelley">
+        <h3>Full-Stack dev etc.</h3>
+    </div>
+
+    <div id="techstack">>
+        <p>Tools i use everyday</p>
+        <h1>TECH STACK</h1>
+        <div id="tsicons">
+            <div>
+                <img src="images/resized-images/python.png" alt="python logo">
+                <p>PYTHON</p>
+            </div>
+            <div>
+                <img src="images/resized-images/html.png" alt="html 5 logo">
+                <p>HTML 5</p>
+            </div>
+            <div>
+                <img src="images/resized-images/css.png" alt="css logo">
+                <p>CSS 3</p>
+            </div>
+            <div>
+                <img src="images/resized-images/js.png" alt="Java script logo">
+                <p>JAVASCRIPT</p>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <h2>PORTFOLIO</h2>
+        <p>Some of my notable projects</p>
+        <div id="projectgrid">
+            <div>
+                <a href="project 1.html"><img src="project1.jpg" alt="Project 1"></a> 
+            </div>
+            <div>
+                <a href="project 2.html"><img src="project2.jpg" alt="Project 2"></a> 
+            </div>
+            <div>
+                <a href="project 3.html"><img src="project3.jpg" alt="Project 3"></a> 
+            </div>
+        </div>
+    </div>
+    <div id="blog">
+        <h2>BLOG</h2>
+        <p>Some of my thoughts on tech and programming</p>
+        <div id="bloggrid">
+            <div>
+                <a href="article 1.html"><img src="article1.jpg" alt="article 1"></a>
+                <h3>article name</h3>
+                <h4> - Ryan Kelley - date (dd/mm/yyyy)</h4>
+                <P>more info</P>
+                <a href="article 1.html"><h5>^ click to read ^</h5></a>
+            </div>
+            <div>
+                <a href="article 2.html"><img src="article2.jpg" alt="article 2"></a> 
+                <h3>article name</h3>
+                <h4> - Ryan Kelley - date (dd/mm/yyyy)</h4>
+                <P>more info</P>
+                <a href="article 2.html"><h5>^ click to read ^</h5></a>
+            </div>
+            <div>
+                <a href="article 3.html"><img src="article3.jpg" alt="article 3"></a>
+                <h3>article name</h3>
+                <h4> - Ryan Kelley - date (dd/mm/yyyy)</h4>
+                <P>more info</P>
+                <a href="article 3.html"><h5>^ click to read ^</h5></a>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h2>CONTACT</h2>
+        <!--hover to reveal email w/ for below + calendly on the aside-->
+        <div id="form">
+            <p>Contact me for freelance work, collaborations, or just to say hi!</p>
+            <a href="mailto:ryankelley1711@gmail.com">
+                email need to display on hover with cool effect (scramble appear)
+            </a>
+            <form action="mailto:ryankelley1711@gmail.com?subject=PortfolioContact" method="post" enctype="text/plain">
+                <fieldset>
+                <label for="fname">First Name</label>
+                <input type="text" name="FirstName" id="fname" placeholder="enter your first name">
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="LastName" id="lname" placeholder="enter your last name">
+                <p>
+                <label for="enquiry">enquiry</label>
+                <br>
+                <textarea name="Message" id="enquiry" placeholder="Enter your message here"></textarea>
+                </p>
+                <button type="reset">Clear</button>
+                <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </div>
+        <aside>
+            <!--if i can connect calendly directly here that'd be great-->
+            <a href="https://calendly.com/ryankelley1711">Schedule a call
+                <img src="calendly.png" alt="Schedule a call">
+                </a>
+        </aside>
+    </div>
+    
+</body>
+</html>
