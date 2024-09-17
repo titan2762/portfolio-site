@@ -193,6 +193,12 @@ span{
     box-shadow: 0 0 25px #b74b4b;
 }
 
+#about-me {
+    position: relative;
+    margin-right: 10px
+
+}
+
 /*typing animation*/
 
 .typing-text{
